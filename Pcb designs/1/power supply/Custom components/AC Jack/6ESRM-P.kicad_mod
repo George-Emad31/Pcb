@@ -1,0 +1,233 @@
+(footprint "6ESRM-P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>AC Connector</b><p>120/250 VAC<br>Source: http://catalog.tycoelectronics.com .. ENG_DS_1654001_1099_SR_0406.pdf")
+	(property "Reference" "REF**"
+		(at -20.32 -7.62 0)
+		(layer "F.SilkS")
+		(uuid "cb031b1c-4cfd-4249-89ac-959f09810b95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "6ESRM-P"
+		(at -5.715 7.62 0)
+		(layer "F.Fab")
+		(uuid "f8fb227b-2ae4-466a-96c8-04d09e4b3d36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5ebc104-c77b-4725-ada7-1e5f737cae28")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "363cec0f-3133-47b4-ace0-3fa06b830bba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -24.9 -6.4)
+		(end -14.605 -6.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0feed4e8-b991-4985-9fe8-6c0c88f7c8e8")
+	)
+	(fp_line
+		(start -24.9 9.5)
+		(end -24.9 -6.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0907f8e8-4355-4241-a337-5f6097b56ebb")
+	)
+	(fp_line
+		(start -14.605 -8.255)
+		(end -14.605 13)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a714d645-7e17-4140-86dc-ab8df13e7f07")
+	)
+	(fp_line
+		(start -14.605 -8.255)
+		(end 14.605 -8.255)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61a956b9-9d59-4922-b0bb-ed0f47edac8e")
+	)
+	(fp_line
+		(start -14.605 13)
+		(end 14.5 13)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31ca56e4-b843-437c-bc9f-f053bf7c8d02")
+	)
+	(fp_line
+		(start 14.605 -8.255)
+		(end 14.5 13)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14fb99ca-1d49-406e-92fd-a7e2f5e9ef3e")
+	)
+	(fp_line
+		(start 14.605 -6.4)
+		(end 24.9 -6.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5fc63737-d8c8-46e6-a0d6-058119344e92")
+	)
+	(fp_line
+		(start 24.9 -6.4)
+		(end 24.9 9.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f971646a-87d0-4e94-ba67-5aec7cd8d3f3")
+	)
+	(fp_line
+		(start 24.9 9.5)
+		(end -24.9 9.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6982cc3c-81a4-4dd6-923a-866e2e974334")
+	)
+	(fp_poly
+		(pts
+			(xy -9.675 -10.175) (xy -8.525 -10.175) (xy -8.525 -8.25) (xy -9.675 -8.25)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "9595577a-d4cc-4e2b-8ae4-2a9c0b4d7716")
+	)
+	(fp_poly
+		(pts
+			(xy -0.575 -10.175) (xy 0.575 -10.175) (xy 0.575 -8.25) (xy -0.575 -8.25)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "0e7fd420-62b7-4f5a-bce4-68a5eb4d2829")
+	)
+	(fp_poly
+		(pts
+			(xy 8.525 -10.175) (xy 9.675 -10.175) (xy 9.675 -8.25) (xy 8.525 -8.25)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "14f15f5f-40bb-41b9-83c1-05c715306f7f")
+	)
+	(pad "" np_thru_hole circle
+		(at -20 0)
+		(size 3.6 3.6)
+		(drill 3.6)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e9a15f84-93b6-4cbf-aebd-7bac0641e5f0")
+	)
+	(pad "" np_thru_hole circle
+		(at 20 0)
+		(size 3.6 3.6)
+		(drill 3.6)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e8a4c884-dc82-4723-bba5-335e7635abc6")
+	)
+	(pad "1" thru_hole circle
+		(at -9.1 -9.7)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "bf138669-efe5-4491-b9a6-4782af8e2909")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -9.7)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "55347949-afd0-4f0e-b548-b69cc7997335")
+	)
+	(pad "3" thru_hole circle
+		(at 9.1 -9.7)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "53c62877-bc13-4f6c-9980-cf3b562e2ee3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Custom components/AC Jack/c-1609078-1-a-3d.stp"
+		(offset
+			(xyz 0 -6.3 16)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
